@@ -1,0 +1,50 @@
+.desginContainer {
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.designTop .div_row {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.designTop .div_row > div {
+  font-size: clamp(1rem, 8vw, 15rem);
+  font-weight: 600;
+}
+
+.designTop .div_row .imageSpan img {
+  height: 100px;
+  width: clamp(120px, 23vw, 100%);
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.desginContainer .designBottom {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+.desginContainer .designBottom .left img {
+  width: clamp(120px, 23vw, 100%);
+  height: clamp(300px, 23vw, 410px);
+  object-fit: cover;
+  border-radius: 30px;
+}
+.desginContainer .designBottom .right {
+  font-size: clamp(1rem, 8vw, 10rem);
+  font-weight: 600;
+  color: #9b9b9b;
+}
+.desginContainer .designBottom .right p span img {
+  width: clamp(20px, 22vw, 110px);
+}
+.desginContainer .designBottom .right video {
+  height: 100px;
+  border-radius: 30px;
+  width: clamp(120px, 23vw, 100%);
+  object-fit: cover;
+}

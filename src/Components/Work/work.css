@@ -1,0 +1,44 @@
+.workContainer h1 {
+  font-size: clamp(1rem, 7vw, 15rem);
+  font-weight: 600;
+}
+
+.workList {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background: rgba(238, 237, 228, 0.1);
+  padding: 3rem;
+  padding-left: 5rem;
+  border-radius: 5px;
+  border: 1.2px solid #9b9b9b;
+}
+.workList ul {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.5rem;
+  font-family: "Roboto Mono", monospace;
+}
+.workList ul li {
+  position: relative;
+}
+.workList ul li::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../assets/orangeFillArrow.svg);
+}
+
+@media screen and (max-width: 720px) {
+  .workList {
+    width: 95%;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,71 @@
+.headerContainer {
+  width: 100%;
+  margin-top: clamp(2rem, 8vw, 10rem);
+}
+
+.headerContainer .subTitle {
+  font-size: clamp(1rem, 3vw, 2.8rem);
+}
+.headerContainer .subTitle {
+  gap: 1rem;
+  margin-bottom: clamp(1.8rem, 4vw, 3rem);
+}
+
+.headerContainer .subTitle .subtitleFirst {
+  font-weight: 200;
+}
+
+.subTitle .titleColor {
+  color: #c51bf0;
+}
+
+.headerTitle .div_row {
+  display: flex;
+  font-weight: 500;
+  color: #9b9b9b;
+  font-size: clamp(1rem, 12vw, 15rem);
+  align-items: center;
+  gap: 1rem;
+  line-height: 1;
+}
+
+.headerTitle .div_row .imageSpan img {
+  border-radius: 30px;
+  width: clamp(120px, 23vw, 100%);
+}
+.headerTitle .div_row:nth-child(2) .imageSpan img {
+  width: clamp(200px, 23vw, 100%);
+}
+.headerTitle .div_row:last-child .imageSpan img {
+  border-radius: 30px;
+  max-height: 120px;
+  width: clamp(120px, 23vw, 100%);
+}
+.headerSubContainer {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.headerSubContainer .headerBanner {
+  background: rgba(238, 237, 228, 0.1);
+  padding: clamp(1rem, 3vw, 3rem);
+  border-radius: 5px;
+  border: 1.2px solid #9b9b9b;
+}
+.headerSubContainer .headerBanner > h2:first-child {
+  font-size: clamp(1.5rem, 4vw, 8rem);
+  line-height: 0.9;
+  padding-right: clamp(1rem, 3vw, 10rem);
+  color: #9b9b9b;
+  font-weight: 500;
+}
+.headerSubContainer .headerBanner > P:last-child {
+  font-size: clamp(1rem, 1.5vw, 3rem);
+  margin-top: clamp(1rem, 2vw, 2rem);
+  font-family: "Roboto Mono", monospace;
+}
+.bannerColor {
+  color: #5eecff;
+}

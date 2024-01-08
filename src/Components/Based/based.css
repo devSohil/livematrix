@@ -1,0 +1,51 @@
+.basedContainer {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.basedContainer h1 {
+  font-size: clamp(1rem, 7vw, 15rem);
+  font-weight: 600;
+}
+
+.basedContainer .basedSubContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.basedContainer .basedSubContainer .left {
+  flex: 2;
+}
+.basedContainer .basedSubContainer .right {
+  flex: 1;
+}
+.basedContainer .basedSubContainer .left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.basedContainer .basedSubContainer .left p {
+  font-size: 1.3rem;
+  font-family: "Roboto Mono", monospace;
+  padding-right: clamp(1rem, 12vw, 20rem);
+}
+
+.basedContainer .basedSubContainer .left img {
+  /* width: 90%; */
+  width: clamp(300px, 50vw, 100%);
+  border-radius: 30px;
+}
+
+.basedContainer .basedSubContainer .right img {
+  border-radius: 30px;
+  /* width: 100%; */
+}
+
+@media screen and (max-width: 720px) {
+  .basedContainer .basedSubContainer {
+    flex-direction: column;
+  }
+}

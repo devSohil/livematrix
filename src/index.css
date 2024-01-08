@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #020202;
+  /* max-width: 1280px; */
+  color: aliceblue;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Inter Tight", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.grey {
+  color: #9b9b9b;
+}
+.orange {
+  color: #f17e14;
+}

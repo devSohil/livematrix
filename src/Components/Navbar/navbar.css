@@ -1,0 +1,22 @@
+.navbarContainer {
+  width: max(300px, 100%);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+  height: 10vh;
+  font-size: clamp(0.8rem, 1.12rem, 1.25rem);
+  border-bottom: 2.5px solid #242424;
+}
+
+.logo {
+  color: #c51bf0;
+  font-size: 2rem;
+}
+
+.navbarContainer .navlists ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
